@@ -1,0 +1,34 @@
+{
+  "name": "ThemeKit",
+  "version": "0.1.0",
+  "summary": "A short description of ThemeKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/zyf19990621/ThemeKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Zhang Yuf": "zhangyufan@didiglobal.com"
+  },
+  "source": {
+    "git": "https://github.com/zyf19990621/ThemeKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "source_files": "ThemeKit/Classes/**/*",
+  "resource_bundles": {
+    "Themes": [
+      "ThemeKit/Assets/*.xcassets",
+      "ThemeKit/Assets/*.lproj",
+      "ThemeKit/Assets/icons/**"
+    ]
+  },
+  "dependencies": {
+    "SVGKit": [
+
+    ]
+  }
+}

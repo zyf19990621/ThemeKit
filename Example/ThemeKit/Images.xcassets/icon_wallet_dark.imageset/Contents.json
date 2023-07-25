@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "icon_multi_wallet_dark (1).svg",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

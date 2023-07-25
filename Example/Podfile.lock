@@ -1,0 +1,29 @@
+PODS:
+  - CocoaLumberjack (3.8.1):
+    - CocoaLumberjack/Core (= 3.8.1)
+  - CocoaLumberjack/Core (3.8.1)
+  - SVGKit (3.0.0):
+    - CocoaLumberjack (~> 3.0)
+  - ThemeKit (0.1.0):
+    - SVGKit
+
+DEPENDENCIES:
+  - ThemeKit (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - CocoaLumberjack
+    - SVGKit
+
+EXTERNAL SOURCES:
+  ThemeKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CocoaLumberjack: 5c7e64cdb877770859bddec4d3d5a0d7c9299df9
+  SVGKit: 1ad7513f8c74d9652f94ed64ddecda1a23864dea
+  ThemeKit: 757f8c27d2ec65fa7867c93d5d3d7094d6f75377
+
+PODFILE CHECKSUM: 54f1b0d34e0e7c0b9a2bc8eee4f1a18e054a6f83
+
+COCOAPODS: 1.11.3
